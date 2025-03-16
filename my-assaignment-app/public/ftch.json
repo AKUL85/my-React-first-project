@@ -6,7 +6,7 @@
       "player_country": "India",
       "country_flag": "https://flagcdn.com/w80/in.png",
       "batting_side": "Right-hand batsman",
-      "player_prize": "2,000,000",
+      "player_prize": 2000000,
       "player_skill": "Batsman"
     },
     {
@@ -16,7 +16,7 @@
       "player_country": "England",
       "country_flag": "https://flagcdn.com/w80/gb.png",
       "batting_side": "Right-hand batsman",
-      "player_prize": "1,800,000",
+      "player_prize": 1800000,
       "player_skill": "Batsman"
     },
     {
@@ -26,7 +26,7 @@
       "player_country": "Australia",
       "country_flag": "https://flagcdn.com/w80/au.png",
       "batting_side": "Left-hand batsman",
-      "player_prize": "1,500,000",
+      "player_prize": 1500000,
       "player_skill": "Batsman"
     },
     {
@@ -36,7 +36,7 @@
       "player_country": "New Zealand",
       "country_flag": "https://flagcdn.com/w80/nz.png",
       "batting_side": "Right-hand batsman",
-      "player_prize": "1,700,000",
+      "player_prize": 1700000,
       "player_skill": "Batsman"
     },
     {
@@ -46,7 +46,7 @@
       "player_country": "Pakistan",
       "country_flag": "https://flagcdn.com/w80/pk.png",
       "batting_side": "Right-hand batsman",
-      "player_prize": "1,600,000",
+      "player_prize": 1600000,
       "player_skill": "Batsman"
     },
     {
@@ -56,7 +56,7 @@
       "player_country": "India",
       "country_flag": "https://flagcdn.com/w80/in.png",
       "batting_side": "Right-hand batsman",
-      "player_prize": "2,200,000",
+      "player_prize": 2200000,
       "player_skill": "Bowler"
     },
     {
@@ -66,7 +66,7 @@
       "player_country": "Australia",
       "country_flag": "https://flagcdn.com/w80/au.png",
       "batting_side": "Left-hand batsman",
-      "player_prize": "2,000,000",
+      "player_prize": 2000000,
       "player_skill": "Bowler"
     },
     {
@@ -76,7 +76,7 @@
       "player_country": "Afghanistan",
       "country_flag": "https://flagcdn.com/w80/af.png",
       "batting_side": "Right-hand batsman",
-      "player_prize": "1,400,000",
+      "player_prize": 1400000,
       "player_skill": "Bowler"
     },
     {
@@ -86,7 +86,7 @@
       "player_country": "England",
       "country_flag": "https://flagcdn.com/w80/gb.png",
       "batting_side": "Left-hand batsman",
-      "player_prize": "2,500,000",
+      "player_prize": 2500000,
       "player_skill": "All-rounder"
     },
     {
@@ -96,7 +96,7 @@
       "player_country": "Bangladesh",
       "country_flag": "https://flagcdn.com/w80/bd.png",
       "batting_side": "Left-hand batsman",
-      "player_prize": "1,800,000",
+      "player_prize": 1800000,
       "player_skill": "All-rounder"
     }
   ]

@@ -1,33 +1,50 @@
-import Header from './components/header/Header'
-import './App.css'
-import Player from './components/player/Player'
-import { useState } from 'react'
-import Selected from './components/selected/Selected'
+import Header from './components/header/Header';
+import './App.css';
+import Player from './components/player/Player';
+import { useState } from 'react';
+import Selected from './components/selected/Selected';
+import Footer from './components/footer/footer';
 
 function App() {
- const [select, setSelect] = useState([]);
- const [number, setNumber] = useState(0);
- const [count, setCount] = useState(0); 
+  const [select, setSelect] = useState([]);
+  const [number, setNumber] = useState(0);
+  const [count, setCount] = useState(0);
 
- const handleChoosePlayer = (player) => {
+  const handleChoosePlayer = (player) => {
     setSelect([...select, player]);
- };
+  };
 
- const addMoney = (num) => {
-  if (count >= 3) { 
-    alert("Your Free Giving money touches the limit");
-    return;
-  }
+  const addMoney = (num) => {
+    if (count >= 3) {
+      alert('Your Free Giving money touches the limit');
+      return;
+    }
+    setNumber((prev) => prev + num);
+    setCount((prev) => prev + 1);
+  };
+
+  const subTractMoney = (num) => {
+    
   
-  setNumber(prev => prev + num);
-  setCount(prev => prev + 1); 
- };
+  
+    if (typeof num !== 'number' || isNaN(num)) {
+      console.error('Invalid number:', num);
+      return;
+    }
+  
+    if (number < num) {
+      alert('You do not have sufficient balance');
+      return;
+    }
+    setNumber((prev) => prev - num);
+  };
 
- return (
+  return (
     <>
-      <Header number={number} addMoney={addMoney}></Header>
-      <Player handleChoosePlayer={handleChoosePlayer}></Player>
-      <Selected select={select}></Selected>
+      <Header number={number} addMoney={addMoney} />
+      <Player subTractMoney={subTractMoney} handleChoosePlayer={handleChoosePlayer} />
+      <Selected select={select} />
+      <Footer></Footer>
     </>
   );
 }

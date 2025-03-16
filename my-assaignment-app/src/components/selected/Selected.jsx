@@ -2,7 +2,7 @@ import React from 'react';
 
 const Selected = ({ select }) => {
     return (
-        <div className='my-5 max-w-6xl mx-auto'>
+        <div className='my-5 max-w-6xl mx-auto '>
             <h1 className='text-2xl font-bold'>Selected Players</h1>
             <div className='space-y-4'>
                 {select.map((player, index) => (
