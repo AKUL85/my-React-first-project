@@ -1,0 +1,103 @@
+[
+    {
+      "player_id": 1,
+      "player_name": "Virat Kohli",
+      "player_image": "https://i.postimg.cc/PqkK5pXz/150465-1080x1920-mobile-full-hd-virat-kohli-wallpaper-2.jpg",
+      "player_country": "India",
+      "country_flag": "https://flagcdn.com/w80/in.png",
+      "batting_side": "Right-hand batsman",
+      "player_prize": "2,000,000",
+      "player_skill": "Batsman"
+    },
+    {
+      "player_id": 2,
+      "player_name": "Joe Root",
+      "player_image": "https://i.postimg.cc/9FRBPtzY/root.jpg",
+      "player_country": "England",
+      "country_flag": "https://flagcdn.com/w80/gb.png",
+      "batting_side": "Right-hand batsman",
+      "player_prize": "1,800,000",
+      "player_skill": "Batsman"
+    },
+    {
+      "player_id": 3,
+      "player_name": "David Warner",
+      "player_image": "https://i.postimg.cc/W3zZNTkw/eb591693483cbbd42a5aefe483d7d0be.jpg",
+      "player_country": "Australia",
+      "country_flag": "https://flagcdn.com/w80/au.png",
+      "batting_side": "Left-hand batsman",
+      "player_prize": "1,500,000",
+      "player_skill": "Batsman"
+    },
+    {
+      "player_id": 4,
+      "player_name": "Kane Williamson",
+      "player_image": "https://i.postimg.cc/J7yTKW2X/Kane-Williamson-New-Zealand-cricketer-free-png-photo-1696494013-1967883506.webp",
+      "player_country": "New Zealand",
+      "country_flag": "https://flagcdn.com/w80/nz.png",
+      "batting_side": "Right-hand batsman",
+      "player_prize": "1,700,000",
+      "player_skill": "Batsman"
+    },
+    {
+      "player_id": 5,
+      "player_name": "Babar Azam",
+      "player_image": "https://i.postimg.cc/NjvR133Q/255eda58c95aca97c3065598d990b408.jpg",
+      "player_country": "Pakistan",
+      "country_flag": "https://flagcdn.com/w80/pk.png",
+      "batting_side": "Right-hand batsman",
+      "player_prize": "1,600,000",
+      "player_skill": "Batsman"
+    },
+    {
+      "player_id": 6,
+      "player_name": "Jasprit Bumrah",
+      "player_image": "https://i.postimg.cc/kgywDMB0/Jasprit-bumrah-free-png-1693129887-1817270872.webp",
+      "player_country": "India",
+      "country_flag": "https://flagcdn.com/w80/in.png",
+      "batting_side": "Right-hand batsman",
+      "player_prize": "2,200,000",
+      "player_skill": "Bowler"
+    },
+    {
+      "player_id": 7,
+      "player_name": "Mitchell Starc",
+      "player_image": "https://i.postimg.cc/d0t6CMCL/taunton-uk-12th-june-2019-mitchell-starc-of-australia-during-the-australia-v-pakistan-icc-cricket-wo.jpg",
+      "player_country": "Australia",
+      "country_flag": "https://flagcdn.com/w80/au.png",
+      "batting_side": "Left-hand batsman",
+      "player_prize": "2,000,000",
+      "player_skill": "Bowler"
+    },
+    {
+      "player_id": 8,
+      "player_name": "Rashid Khan",
+      "player_image": "https://i.postimg.cc/PJZQHTgF/cwc-2019-rashid-khan-770x435.webp",
+      "player_country": "Afghanistan",
+      "country_flag": "https://flagcdn.com/w80/af.png",
+      "batting_side": "Right-hand batsman",
+      "player_prize": "1,400,000",
+      "player_skill": "Bowler"
+    },
+    {
+      "player_id": 9,
+      "player_name": "Ben Stokes",
+      "player_image":"https://i.postimg.cc/4N6QF4bY/ben-stokes-english-cricket-player-e17th48ztgpw0doe.jpg",
+      "player_country": "England",
+      "country_flag": "https://flagcdn.com/w80/gb.png",
+      "batting_side": "Left-hand batsman",
+      "player_prize": "2,500,000",
+      "player_skill": "All-rounder"
+    },
+    {
+      "player_id": 10,
+      "player_name": "Shakib Al Hasan",
+      "player_image": "https://i.postimg.cc/0y90ggcc/images.jpg",
+      "player_country": "Bangladesh",
+      "country_flag": "https://flagcdn.com/w80/bd.png",
+      "batting_side": "Left-hand batsman",
+      "player_prize": "1,800,000",
+      "player_skill": "All-rounder"
+    }
+  ]
+  
