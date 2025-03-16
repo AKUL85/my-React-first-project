@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Player_grid = ({ data }) => {
+const Player_grid = ({ data,handleChoosePlayer}) => {
     const { player_image, player_country, player_name, country_flag,player_skill,batting_side,player_prize } = data
     return (
         <div >
@@ -24,7 +24,7 @@ const Player_grid = ({ data }) => {
                     
                     <h1 className='font-bold'>price:${player_prize}</h1>
                     <button className='border border-gray-200 py-1 px-3 rounded-xl font-semibold'
-                   
+                   onClick={()=>handleChoosePlayer(data)}
                     >Choose Player</button>
 
                 </div>

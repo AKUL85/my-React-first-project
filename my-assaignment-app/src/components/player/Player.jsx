@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Player_grid from '../player_grid/Player_grid';
 
 
-const Player = () => {
+
+const Player = ({handleChoosePlayer}) => {
     const [playerData,setPlayerData]=useState([]);
     useEffect(()=>{
         fetch('ftch.json')
@@ -25,7 +26,7 @@ const Player = () => {
             {/* <h1>player:{playerData.length}</h1> */}
 
             {
-                playerData.map(data=><Player_grid key={data.player_id} data={data}></Player_grid>)
+                playerData.map(data=><Player_grid handleChoosePlayer={handleChoosePlayer}  key={data.player_id} data={data}></Player_grid>)
             }
         </div>
            
