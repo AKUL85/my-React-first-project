@@ -2,8 +2,8 @@ import React from 'react';
 
 const Selected = ({ select, handleDeletePlayer }) => {
     return (
-        <div className='my-5 max-w-6xl mx-auto '>
-            <h1 className='text-2xl font-bold'>Selected Players</h1>
+        <div className='my-5 max-w-6xl mx-auto md:mb-20 mb-30'>
+        
             <div className='space-y-4'>
                 {select.map((player, index) => (
                     <div key={index} className='p-3 border border-gray-300 space-y-3'>

@@ -6,8 +6,8 @@ const Header = ({ addMoney, number }) => {
     return (
         <header>
             <div className='max-w-6xl mx-auto'>
-                <div className='flex justify-between mt-2'>
-                    <img src={photo} alt="" />
+                <div className='flex md:justify-between justify-center flex-col md:flex-row mt-2'>
+                    <img className='h-16 w-16 ' src={photo} alt="" />
                     <div className='flex justify-evenly gap-5 items-start p-4'>
                         <h1 className='text-xl font-bold text-gray-700'>Home</h1>
                         <h1 className='text-xl font-bold text-gray-700'>Fixure</h1>

@@ -31,7 +31,7 @@ const Footer = () => {
             </footer>
 
             {/* Background image and call-to-action section */}
-            <div className="absolute top-[-90px] left-1/2 transform -translate-x-1/5 space-y-4 border border-gray-200 max-w-4xl p-4 bg-white shadow-lg rounded-xl"
+            <div className="absolute top-[-90px] md:left-1/2 left-2/5 md:transform -translate-x-1/5 transform-translate-1/2 space-y-4 border border-gray-200 max-w-4xl p-4 bg-white shadow-lg rounded-xl"
                 style={{ backgroundImage: `url(${pic})` }}>
                 <p className="text-center font-bold text-xl">Subscribe to our Newsletter</p>
                 <p className="text-center">Get the latest updates and news right in your inbox!</p>
